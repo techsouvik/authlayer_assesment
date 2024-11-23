@@ -1,0 +1,6 @@
+{"log":"log message1","stream":"stderr","time":"2019-04-30T02:12:41.8443515Z", "service": "service1"}
+{"log":"log message2","stream":"stderr","time":"2019-04-31T02:12:42.8443515Z", "service": "service1"}
+{"log":"log message3","stream":"stderr","time":"2019-04-31T02:12:42.8443515Z", "service": "service1"}
+{"log":"log message4","stream":"stderr","time":"2019-04-31T02:12:42.8443515Z", "service": "service1"}
+{"log":"log message5","stream":"stderr","time":"2019-04-31T02:12:42.8443515Z", "service": "service1"}
+{"log":"log message6","stream":"stderr","time":"2019-04-31T02:12:42.8443515Z", "service": "service1"}

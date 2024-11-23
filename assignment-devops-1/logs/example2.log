@@ -1,0 +1,24 @@
+{"timestamp": "1657894000000000000", "level": "info", "service": "auth-service", "message": "2023-07-15T14:00:00Z User authentication succeeded"}
+{"timestamp": "1657897600000000000", "level": "warning", "service": "web-server", "message": "2023-07-15T15:00:00Z High latency detected in web server response times"}
+{"timestamp": "1657901200000000000", "level": "critical", "service": "database", "message": "2023-07-15T16:00:00Z Database connection error. Immediate action required!"}
+{"timestamp": "1657901200000000000", "level": "error", "service": "database", "message": "2023-07-15T16:00:00Z Database connection error. Manual intervention needed."}
+{"timestamp": "1657901200000000000", "level": "warning", "service": "database", "message": "2023-07-15T16:00:00Z Database connection slow. Potential issue."}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database connection restored."}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database connection restored."}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database connection restored."}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database3 connection restored."}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database3 connection restored."}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database4 connection restored."}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database5 connection restored."}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database5 connection restored."}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database6 connection restored."}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database7 connection restored."}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database8 connection restored."}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database9 connection restored."}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database10 connection restored."}
+{"timestamp": "1657897600000000000", "level": "warning", "service": "web-server", "message": "2023-07-15T15:00:00Z High latency detected in web server response times1"}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database11 connection restored."}
+{"timestamp": "1657897600000000000", "level": "warning", "service": "web-server", "message": "2023-07-15T15:00:00Z High latency detected in web server response times1"}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database12 connection restored."}
+{"timestamp": "1657901200000000000", "level": "info", "service": "database", "message": "2023-07-15T16:00:00Z Database13 connection restored."}
+{"timestamp": "1657897600000000000", "level": "warning", "service": "web-server", "message": "2023-07-15T15:00:00Z High latency detected in web server response times2"}

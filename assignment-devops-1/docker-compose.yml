@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  loki:
+    image: grafana/loki:latest
+    ports:
+      - "7002:3100"
+    command: -config.file=/etc/loki/loki-config.yaml
+    volumes:
+      - ${DOCKER_DIRECTORY}/selfhosted-grafana-dev/loki:/etc/loki
+      - ${DOCKER_DIRECTORY}/selfhosted-grafana-dev/tmp/loki:/tmp/loki # Maps the loki filesystem to persistent storage
