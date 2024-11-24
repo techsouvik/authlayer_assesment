@@ -7,41 +7,6 @@ This repository contains the setup and configuration for deploying a self-hosted
 ## Features
 1. **Log Aggregation**: Collect logs using **Promtail** and store them in **Loki**.
 2. **Dashboard Visualization**: Visualize logs and system health status using **Grafana**.
-3. **Service Monitoring**: Status dashboard with live updates (Green = Up, Red = Down) **Vonage Status Panel**.
-4. **Alerting**: Email notifications for service downtime using **Grafana AlertManager**.
-
----
-
----
-
-## Folder Structure
-```plaintext
-.
-├── docker-compose.yml       # Defines services for Grafana, Loki, and Promtail
-├── assignemnt_devops-1/     # Github repo contents
-│   ├── logs/                # Sample logs for ingestion 
-│   ├── env.example /        # Example environment variables (SMTP settings, etc.)   
-│   └── others..                               
-├── grafana/                 # Grafana configuration files
-├── loki/                    # Loki configuration files
-├── promtail/                # Promtail configuration files
-└── README.md                # Documentation (this file)
-```
-
-## 
-Here's a detailed README.md for your GitHub repository:
-
-markdown
-Copy code
-# Self-Hosted Grafana Monitoring Stack
-
-This repository contains the setup and configuration for deploying a self-hosted monitoring stack using **Grafana**, **Loki**, and **Promtail**. The stack provides log collection, visualization, service status monitoring, and email alerting for application health.
-
----
-
-## Features
-1. **Log Aggregation**: Collect logs using **Promtail** and store them in **Loki**.
-2. **Dashboard Visualization**: Visualize logs and system health status using **Grafana**.
 3. **Service Monitoring**: Status dashboard with live updates (Green = Up, Red = Down).
 4. **Alerting**: Email notifications for service downtime using **Grafana AlertManager**.
 
@@ -106,6 +71,6 @@ docker-compose up -d
     - A status dashboard displays the live status of services:
         - Green: Logs received in the last minute.
         - Red: No logs received in the last minute.
-        
+
 - Email Alerts
     - Alerts are triggered via Grafana AlertManager if any service is marked as "down".
