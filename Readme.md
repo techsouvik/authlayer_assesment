@@ -14,7 +14,7 @@ This repository contains the setup and configuration for deploying a self-hosted
 
 ## Prerequisites
 - **Docker** and **Docker Compose** installed on the host machine.
-- Open ports: `4000-11000`.
+- Open ports: `3000-3100`.
 - Access to a Gmail account for sending email alerts via SMTP.
 
 ---
@@ -22,14 +22,15 @@ This repository contains the setup and configuration for deploying a self-hosted
 ## Folder Structure
 ```plaintext
 .
-├── docker-compose.yml       # Defines services for Grafana, Loki, and Promtail
-├── config/
-│   ├── grafana/             # Grafana configuration files
-│   ├── loki/                # Loki configuration files
-│   └── promtail/            # Promtail configuration files
-├── logs/                    # Sample logs for ingestion
-├── env.example              # Example environment variables (SMTP settings, etc.)
-└── README.md                # Documentation (this file)
+├── docker-compose.yml          # Defines services for Grafana, Loki, and Promtail
+├── Assignment-devops-1/        # The Assignment Repo
+│  ├── logs/                    # Sample logs for ingestion
+│  ├── env.example              # Example environment variables (SMTP settings, etc.)
+│  └── Others..
+├── grafana/                    # Grafana configuration files
+├── loki/                       # Loki configuration files
+├── promtail/                   # Promtail configuration files
+└── README.md                   # Documentation (this file)
 ```
 
 ## Setup Instructions
